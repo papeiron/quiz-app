@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/roobert" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <button class="btn btn-start btn-effect"><span>Start Quiz</span></button>
+
+    <div class="card quiz-box">
+      <header class="quiz-card-header">
+        <div class="timer">
+          <div class="time-second show-button">10</div>
+        </div>
+        <div class="time_line"></div>
+      </header>
+      <section class="quiz-card-body">
+        <div class="quiz-card-question">
+          <!-- <p>In which city of Germany is the largest port?</p> -->
+        </div>
+        <div class="option_list">
+          <!-- <div class="option">
+                    <span>Node.js</span>
+                    <div class="icon"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>Typescript</span>
+                    <div class="icon"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="option correct">
+                    <span>Npm</span>
+                    <div class="icon"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="option incorrect">
+                    <span>Nuget</span>
+                    <div class="icon"><i class="fas fa-times"></i></div>
+                </div> -->
+        </div>
+      </section>
+      <footer class="quiz-card-footer">
+        <div class="question-index"></div>
+        <button class="btn-outline btn-next show-button">
+          <span>Next Question</span>
+        </button>
+      </footer>
+    </div>
+
+    <div class="card score_box">
+      <div class="header_text"><h2>QUIZ COMPLETED</h2></div>
+      <div class="answered_correct_text"></div>
+      <div class="buttons">
+        <button class="btn btn-replay btn-effect">
+          <span class="">Play Again</span>
+        </button>
+      </div>
+    </div>
+
+    <script src="ui.js"></script>
+    <script src="soru.js"></script>
+    <script src="quiz.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
